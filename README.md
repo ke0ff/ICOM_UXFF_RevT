@@ -1,10 +1,7 @@
 # ICOM_UXFF
-Source and support for the UXFFront module for the ICOM IC-900/IC-901 UX radio modules
+Source and support for the UXFFront module MCU.  UXFFront is a replacement board for the "Front Unit" used
+in the ICOM IC-900/IC-901 UX radio modules.  This replacement board allows the modules to be configured as
+stand alone radios.
 
-configux.exe: A simple console application for WIN10 that provides for management of the UXFFront module.
-          Requires a valid COM port# to run.  The port# can be entered at the WIN10 command line or after
-          the application is running.
-          
-    NOTE: The application is not "signed" so WIN10 will think that it is "dangerous" (yet to be determined).
-          The user will have to take the leap-of-faith and "run anyway" since I don't yet know enough about
-          WIN apps to get it signed and otherwise righteous.
+This repo contains the 8051 C source for the MCU T/R application (there are RX only, and Front Unit
+replacement build options as well, but the code for these is maintained separately).
