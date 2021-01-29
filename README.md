@@ -5,4 +5,7 @@ stand alone radios.  The UXFFront will interface with the UX-19, UX-59, UX-29, U
 modules.
 
 This repo contains the 8051 C source for the MCU T/R application (there are RX only, and Front Unit
-replacement build options as well, but the code for these is maintained separately).
+replacement build options as well, but the code for these is maintained separately).  "configux.zip"
+contains the executable and support files for the windows console application that interfaces with the
+UXFF to allow frequency, squelch, and audio level settings to be configured and stored to the radio
+FLASH.
